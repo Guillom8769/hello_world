@@ -3,14 +3,16 @@
 #include <stdio.h>
 
 /**
- * main -  determine if the number is positive, negative or null
+ * main -  determine if the last digit
  *
  * Return: always 0
  */
 int main(void)
 {
 	int n;
-	int Last_digit = n % 10;
+	int Last_digit;
+
+	Last_digit = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;

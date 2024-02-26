@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - function that checks for number
+ * int _abs - function that checks for number
  * @n : entier
  * Return: absolute value
  */

@@ -20,5 +20,5 @@ int print_sign(int n)
 	{
 		return (n);
 	}
-	return (0)
+	return (0);
 }

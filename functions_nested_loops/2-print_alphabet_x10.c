@@ -23,7 +23,6 @@ while (i < 10)
 }
 
 	_putchar('\n');
-	i++
-
+	i++;
 
 }

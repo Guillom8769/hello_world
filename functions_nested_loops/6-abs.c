@@ -3,7 +3,7 @@
 /**
  * print_sign - function that checks for number
  * @n : entier
- * Return: 1 (>0) -1 (<0) or 0 (==0)
+ * Return: absolute value 
  */
 
 int print_sign(int n)
@@ -18,6 +18,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		return (0);
+		return (n);
 	}
+	return (0)
 }

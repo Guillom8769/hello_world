@@ -6,9 +6,9 @@
  * Return: absolute value 
  */
 
-int print_sign(int n)
+int _abs(int n)
 {
-	if (n > 0)
+	if (n >= 0)
 	{
 		return (n);
 	}
@@ -16,9 +16,6 @@ int print_sign(int n)
 	{
 		return (n * -1);
 	}
-	else
-	{
-		return (n);
-	}
+	
 	return (0);
 }

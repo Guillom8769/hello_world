@@ -3,7 +3,7 @@
 /**
  * print_sign - function that checks for number
  * @n : entier
- * Return: absolute value 
+ * Return: absolute value
  */
 
 int _abs(int n)
@@ -16,6 +16,5 @@ int _abs(int n)
 	{
 		return (n * -1);
 	}
-	
 	return (0);
 }

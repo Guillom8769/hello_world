@@ -6,7 +6,7 @@
  * Return: 1 (digit) or 0
  */
 
-nt _isdigit(int c)
+int _isdigit(int c)
 {
 
 

@@ -2,8 +2,9 @@
 
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
- * @n : entier
- * Return: prints every minute of the day 
+ * @hr: entier hour
+ * @mn: entier minute
+ * Return:prints every minute of the day
  */
 
 void jack_bauer(void)
@@ -11,7 +12,7 @@ void jack_bauer(void)
 	int hr;
 	int mn;
 
-	for (hr = 0 ; hr < 24 ; hr ++)
+	for (hr = 0 ; hr < 24 ; hr++)
 	{
 		for (mn = 0 ; mn < 60 ; mn++)
 		{

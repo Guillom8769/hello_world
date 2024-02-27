@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - function that prints the numbers
- * @i: charactere
+ * @i: integer
  * Return: 0
  */
 

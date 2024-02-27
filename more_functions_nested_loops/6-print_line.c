@@ -2,7 +2,7 @@
 
 /**
  *print_line: draws a straight line
- *@n: nb de caractère a imprimer 
+ *@n: nb de caractère a imprimer
  */
 
 void print_line(int n)
@@ -14,7 +14,7 @@ void print_line(int n)
 	else
 	{
 		int i;
-		for(i = 0; i < n; i++)
+		for (i = 0; i < n; i++)
 			_putchar('_');
 
 	_putchar('\n');

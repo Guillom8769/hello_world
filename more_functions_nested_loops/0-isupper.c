@@ -2,7 +2,7 @@
 
 /**
  * _isupper - checks for uppercase character: man isupper
- * c - charactère
+ * @c - charactère
  * Return: 1 (upper case) or 0
  */
 

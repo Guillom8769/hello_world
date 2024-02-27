@@ -3,7 +3,7 @@
 /**
  *print_line: draws a straight line
  *@n: nb de caractère a imprimer
- *@i : integer 
+ *@i: integer
  */
 
 void print_line(int n)

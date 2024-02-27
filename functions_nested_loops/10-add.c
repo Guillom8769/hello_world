@@ -4,16 +4,11 @@
  * add - function that adds two integers
  * @a: entier
  * @b: entier
- * @r: entier egal a la somme a et b
  * Return: addition result  
  */
-int add(int, int)
-{
-	int a, int b, int r;
+int add(int a, int b)
 
-	r = a + b
 	{
-		return (r);
+		return (a + b);
 	}
-	return (0)
-}
+

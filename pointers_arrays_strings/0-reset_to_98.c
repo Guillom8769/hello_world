@@ -1,15 +1,11 @@
 #include "main.h"
 
 /**
- *print_square:function prints a square
- *@size: nb de caractère a imprimer
- *@i: integer
- */
+  * reset_to_98 - pointer to an int as parameter and updates the value to 98.
+  * @n : pointer n
+  */
 
 void reset_to_98(int *n)
 {
-	int * ad ;
-	n = 0 ;
-	ad = &n ;
-	*ad = 98 ;
+	*n = 98;
 }

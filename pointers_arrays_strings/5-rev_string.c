@@ -7,7 +7,7 @@
  * Description: prints a string in reverse
  */
 
- void rev_string(char *s);
+ void rev_string(char *s)
 {
 	int l = 0;
 	int i = 0;

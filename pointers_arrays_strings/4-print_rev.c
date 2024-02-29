@@ -9,18 +9,17 @@
  * On success: return the number of characters printed
  */
 
-int _strlen(char *s)
 void print_rev(char *s)
 {
-	int length = _strlen(s);
+	int long = 0;
 	int i;
 
-	for (i = length - 1; i >= 0; i--)
-	{
+	while (s[i++])
+		long++;
+	for (i = long - 1; i >= 0; i--)
 		_putchar(s[i]);
-	}
+
 	_putchar('\n');
-	{
-		return (0);
-	}
 }
+
+

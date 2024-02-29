@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *print_rev - prints a string in reverse
+ *rev_string - prints a string in reverse
  * @s: string to print
  * Description: prints a string in reverse
  */
@@ -14,8 +14,11 @@
 
 	while (s[i++])
 		l++;
-	for (i = l - 1; i >= 0; i--)
-		_putchar(s[]);
+
+	for (i = 0; i < l; i++)
+		_putchar(s[i]);
+
+	for (i = l - 1; i >= 0; i--);
 		_putchar(s[i]);
 
 	_putchar('\n');

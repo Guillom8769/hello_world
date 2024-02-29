@@ -3,10 +3,9 @@
 
 /**
  *print_rev - prints a string in reverse
- * @str: string to print
+ * @s: string to print
  *
- * Description: prints a string
- * On success: return the number of characters printed
+ * Description: prints a string in reverse 
  */
 
 void print_rev(char *s)

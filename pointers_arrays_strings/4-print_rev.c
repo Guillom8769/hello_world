@@ -9,6 +9,7 @@
  * On success: return the number of characters printed
  */
 
+int _strlen(char *s)
 void print_rev(char *s)
 {
 	int length = _strlen(s);

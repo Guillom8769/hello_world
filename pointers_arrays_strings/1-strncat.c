@@ -5,7 +5,7 @@
  * @dest: pointer to the dest str
  * @src: pointer to the src str
  * @n: it will use at most n bytes from src
- * Return: S1
+ * Return: dest 
  */
 
 
@@ -17,7 +17,7 @@ char *_strncat(char *dest, char *src, int n)
 	for (j = 0; dest[j] != '\0'; j++)
 	;
 
-	for(i = 0; src[i] != '\0' && i < n; i++)
+	for (i = 0; src[i] != '\0' && i < n; i++)
 	{
 		dest[j + i] = src[i];
 	}

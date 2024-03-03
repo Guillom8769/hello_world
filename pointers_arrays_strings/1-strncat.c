@@ -5,7 +5,7 @@
  * @dest: pointer to the dest str
  * @src: pointer to the src str
  * @n: it will use at most n bytes from src
- * Return: dest 
+ * Return: dest
  */
 
 

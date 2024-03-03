@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-
 /**
  * print_array - function prints n elements of an array of integers + \\n
  * @a: pointer to the character array.
@@ -18,7 +17,6 @@ void print_array(int *a, int n)
 	{
 		d = a[i];
 		printf("%d", d);
-		
 		if (i <= (n - 2))
 		{
 			printf(", ");

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *memset: inscrit ds *s n fois la valeur b
+ *_memset: inscrit ds *s n fois la valeur b
  *@s: pointer 
  *@b: constant 
  *@n: nb de bytes à inscrire

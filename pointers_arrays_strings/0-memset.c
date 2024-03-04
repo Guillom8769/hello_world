@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *_memset: inscrit ds *s n fois la valeur b
+ *_memset: fills memory with a constant byte.
  *@s: pointer
  *@b: constant
  *@n: nb de bytes à inscrire
- *return: pointer
+ *return: pointer to memory area 's'
  */
 
 
